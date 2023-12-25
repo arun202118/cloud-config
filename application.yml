@@ -11,9 +11,9 @@ microservice:
   Payment-Service:
         endpoints:
           endpoint:
-            uri: http://Payment-Service/Payment/doPayment
+            uri: http://localhost:8082/Payment/doPayment
 
   Order-Service:
     endpoints:
       endpoint:
-        uri: http://Order-Service/Order/BookOrder
+        uri: http://localhost:8081/Order/BookOrder
